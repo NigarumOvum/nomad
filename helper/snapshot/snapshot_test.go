@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/hashicorp/consul/sdk/testutil"
 	"github.com/hashicorp/go-msgpack/codec"
+	"github.com/hashicorp/nomad/nomad//structs"
 	"github.com/hashicorp/raft"
 	"github.com/stretchr/testify/require"
 )
